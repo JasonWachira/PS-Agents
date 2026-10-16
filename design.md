@@ -36,9 +36,9 @@ The self-driving trailer is a goal-based and utility-based agent. Its goal is to
 
 ## 2. Directed Graph and Search Tree
 
-### 2.1 Towns Selected (by Region)
+### 2.1 Towns Selected 
 
-| Region | Towns (nodes) |
+| Region | Towns |
 |---|---|
 | Nairobi | Nairobi |
 | Central Highlands | Thika, Murang'a, Nyeri |
@@ -73,13 +73,13 @@ Distances are driving distances between town centres
 
 Each node is a town; each directed edge is a highway segment labelled with its distance. 
 
-![Directed graph](images/directed_graph.png)
+![Directed Graph](https://raw.githubusercontent.com/JasonWachira/PS-Agents/main/Directed%20Graph.png)
 
 ### 2.4 Search Tree 
 
 The tree is rooted at the initial state (Nairobi) and every branch ends at the goal (Kisumu). The same town (e.g. Nakuru, Kericho) can appear more than once because it can be reached by different paths with different costs. The optimal branch is highlighted in green.
 
-![Search tree](images/search_tree.png)
+![Search tree](https://github.com/JasonWachira/PS-Agents/blob/main/search_tree.png)
 
 ---
 
@@ -106,7 +106,7 @@ The tree is rooted at the initial state (Nairobi) and every branch ends at the g
 
 ## 4. Evidence of Group Work
 
-![Team photo](images/team_photo.jpg)
+![Team photo](https://github.com/JasonWachira/PS-Agents/blob/main/Group%20Photo.jpeg)
 
 *Kelvin Wambua Syengo, Jason Wachira and Chelsea Muegi working on the exercise*
 
