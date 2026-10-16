@@ -1,5 +1,5 @@
 # ICS 3202: Artificial Intelligence – Practical Exercise 3
-## Designing a Searching Agent: Self-Driving Trailer on Kenya's Highway Network
+## Designing a Self-Driving Trailer on Kenya's Highway Network
 
 ### Group Members
 | # | Name | Admission No. |
@@ -52,7 +52,7 @@ Each node is a town; each directed edge is a highway segment labelled with its d
 
 ![Directed Graph](https://raw.githubusercontent.com/JasonWachira/PS-Agents/main/Directed%20Graph.png)
 
-### 2.4 Search Tree 
+### 2.3 Search Tree 
 
 The tree is rooted at the initial state (Nairobi) and every branch ends at the goal (Kisumu). The optimal branch is highlighted in green.
 
